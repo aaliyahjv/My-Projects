@@ -284,7 +284,7 @@ aggregate <- aggregate %>%
 #### Main server code ####
 server <- function(input, output) {
   
-  output$list1_link <- renderUI({
+  output$list_link1 <- renderUI({
     
     p1 <- paste0("In the study titled, ", 
                  tags$a(href = "https://link.springer.com/article/10.1007/s10597
@@ -303,7 +303,7 @@ server <- function(input, output) {
     HTML(p1)
   })
   
-  output$list2_link <- renderUI({
+  output$list_link2 <- renderUI({
     
     p1 <- paste("On the other hand, a review article called,", 
                 tags$a(href = "https://www.ncbi.nlm.nih.gov/pmc/articles/
@@ -322,7 +322,7 @@ server <- function(input, output) {
     HTML(p1)
   })
   
-  output$list3_link <- renderUI({
+  output$list_link3 <- renderUI({
     
     p1 <- paste("An article published by AARP called", 
                 tags$a(href = "https://www.aarp.org/health/brain-health/info-
@@ -338,7 +338,7 @@ server <- function(input, output) {
     HTML(p1)
   })
   
-  output$rw_link1 <- renderUI({
+  output$ref_link1 <- renderUI({
     
     p1 <- paste("Adler, S. E. (2022, August 10). Positive effects of music for 
                 Mental Health. AARP. Retrieved February 1, 2023, from", 
@@ -349,7 +349,7 @@ server <- function(input, output) {
     HTML(p1)
   })
   
-  output$rw_link2 <- renderUI({
+  output$ref_link2 <- renderUI({
     
     p1 <- paste("Silverman, M.J. Comparing Educational Music Therapy 
                 Interventions via Stages of Recovery with Adults in an Acute 
@@ -363,7 +363,7 @@ server <- function(input, output) {
     HTML(p1)
   })
   
-  output$dataset_link <- renderUI({
+  output$dataset_link1 <- renderUI({
     
     p1 <- paste("We found the data on", 
                 tags$a(href = "https://www.kaggle.com/datasets/

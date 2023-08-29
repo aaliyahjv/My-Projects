@@ -60,20 +60,20 @@ intro_tab <- tabPanel(
     instrument that can be used not only for entertainment but for mental 
     health purposes as well."),
   tags$ol(
-    tags$li(htmlOutput("list1_link")),
-    tags$li(htmlOutput("list2_link")),
-    tags$li(htmlOutput("list3_link"))
+    tags$li(htmlOutput("list_link1")),
+    tags$li(htmlOutput("list_link2")),
+    tags$li(htmlOutput("list_link3"))
   ),
   p("References"),
-  p(htmlOutput("rw_link1")),
+  p(htmlOutput("ref_link1")),
   p("Rebecchini L. Music, mental health, and immunity. Brain Behav Immun Health.
     2021 Oct 21;18:100374. doi: 10.1016/j.bbih.2021.100374. PMID: 34761245; 
     PMCID: PMC8566759."),
-  p(htmlOutput("rw_link2")),
+  p(htmlOutput("ref_link2")),
   h3(strong("The Dataset")),
   p("Where did you find the data? Please include a link to the data source."),
   tags$ul(
-    tags$li(htmlOutput("dataset_link"))
+    tags$li(htmlOutput("dataset_link1"))
   ),
   p("Who collected the data?"),
   tags$ul(
