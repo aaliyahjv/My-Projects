@@ -287,12 +287,13 @@ server <- function(input, output) {
   output$list_link1 <- renderUI({
     
     p1 <- paste0("In the study titled, ", 
-                 tags$a(href = "https://link.springer.com/article/10.1007/s10597
-                        -019-00380-1", "Comparing Educational Music Therapy 
-                        Interventions via Stages of Recovery with Adults in an 
-                        Acute Care Mental Health Setting"), ", researchers 
-                 performed studies that compared 69 adult patients in an acute 
-                 mental health unit. They made three groups, the controlled, 
+                 tags$a(href = 
+                 "https://link.springer.com/article/10.1007/s10597-019-00380-1", 
+                 "Comparing Educational Music Therapy Interventions via Stages 
+                 of Recovery with Adults in an Acute Care Mental Health Setting"
+                 ), ", researchers performed studies that compared 69 adult 
+                 patients in an acute mental health unit. They made three 
+                 groups, the controlled, 
                  educational lyrical analysis group (ELA), and the educational 
                  songwriting (ESW) which contributed to the question of wheater 
                  music helped these patients in these units during their time of
@@ -305,9 +306,10 @@ server <- function(input, output) {
   
   output$list_link2 <- renderUI({
     
-    p2 <- paste("On the other hand, a review article called,", 
-                tags$a(href = "https://www.ncbi.nlm.nih.gov/pmc/articles/
-                       PMC8566759/", "Music, mental health, and immunity"), 
+    p1 <- paste("On the other hand, a review article called,", 
+                tags$a(href = 
+                "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8566759/",
+                "Music, mental health, and immunity"), 
                 "talks about the importance of music therapy. It involves a 
                 therapeutic process developed between the patient and their 
                 therapist through the use of personalized music experiences. 
@@ -319,15 +321,15 @@ server <- function(input, output) {
                 music increases the release of dopamine and network 
                 connectivity.")
     
-    HTML(p2)
+    HTML(p1)
   })
   
   output$list_link3 <- renderUI({
     
-    p3 <- paste("An article published by AARP called", 
-                tags$a(href = "https://www.aarp.org/health/brain-health/info-
-                       2020/music-mental-health.html", "Music Can Be a Great 
-                       Mood Booster"), "asks the questions of how music can 
+    p1 <- paste("An article published by AARP called", 
+                tags$a(href = 
+                "https://www.aarp.org/health/brain-health/info-2020/music-mental-health.html", 
+                "Music Can Be a Great Mood Booster"), "asks the questions of how music can 
                 impact your life. It describes music therapy as an established 
                 healthcare profession. In a study of 3,185 participants, they 
                 found that using music came to approach goals of decreasing 
@@ -335,7 +337,7 @@ server <- function(input, output) {
                 decrease the levels of cortisol during times of stress or 
                 prolonged stress.")
     
-    HTML(p3)
+    HTML(p1)
   })
   
 #  output$ref_link1 <- renderUI({
