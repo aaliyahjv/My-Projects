@@ -293,13 +293,13 @@ server <- function(input, output) {
                  of Recovery with Adults in an Acute Care Mental Health Setting"
                  ), ", researchers performed studies that compared 69 adult 
                  patients in an acute mental health unit. They made three 
-                 groups, the controlled, 
-                 educational lyrical analysis group (ELA), and the educational 
-                 songwriting (ESW) which contributed to the question of wheater 
-                 music helped these patients in these units during their time of
-                 recovery. Although there wasn’t a significant difference 
-                 between the groups, it still showed a better overall score of 
-                 recovery compared to the control group.")
+                 groups, the controlled, educational lyrical analysis group 
+                 (ELA), and the educational songwriting (ESW) which contributed 
+                 to the question of wheater music helped these patients in these 
+                 units during their time of recovery. Although there wasn’t a 
+                 significant difference between the groups, it still showed a 
+                 better overall score of recovery compared to the control group.
+                 ")
     
     HTML(p1)
   })
@@ -309,17 +309,16 @@ server <- function(input, output) {
     p1 <- paste("On the other hand, a review article called,", 
                 tags$a(href = 
                 "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8566759/",
-                "Music, mental health, and immunity"), 
-                "talks about the importance of music therapy. It involves a 
-                therapeutic process developed between the patient and their 
-                therapist through the use of personalized music experiences. 
-                Utilizing music to treat mental illnesses such as anxiety, 
-                depression, and schizophrenia has improved symptoms, This is 
-                because music therapy allows patients to express emotions while 
-                at a stage of relaxation and feelings of safety. In addition, 
-                there have been studies showing that listening to pleasurable 
-                music increases the release of dopamine and network 
-                connectivity.")
+                "Music, mental health, and immunity"), "talks about the 
+                importance of music therapy. It involves a therapeutic process 
+                developed between the patient and their therapist through the 
+                use of personalized music experiences. Utilizing music to treat 
+                mental illnesses such as anxiety, depression, and schizophrenia 
+                has improved symptoms, This is because music therapy allows 
+                patients to express emotions while at a stage of relaxation and 
+                feelings of safety. In addition, there have been studies showing 
+                that listening to pleasurable music increases the release of 
+                dopamine and network connectivity.")
     
     HTML(p1)
   })
@@ -340,16 +339,16 @@ server <- function(input, output) {
     HTML(p1)
   })
   
-#  output$ref_link1 <- renderUI({
+  output$ref_link1 <- renderUI({
     
-#    p1 <- paste("Adler, S. E. (2022, August 10). Positive effects of music for 
-#                Mental Health. AARP. Retrieved February 1, 2023, from", 
-#                tags$a(href = "https://www.aarp.org/health/brain-health/info-
-#                       2020/music-mental-health.html", "https://www.aarp.org/
-#                       health/brain-health/info-2020/music-mental-health.html"))
+    p1 <- paste("Adler, S. E. (2022, August 10). Positive effects of music for 
+                Mental Health. AARP. Retrieved February 1, 2023, from", 
+                tags$a(href = 
+                "https://www.aarp.org/health/brain-health/info-2020/music-mental-health.html", 
+                "https://www.aarp.org/health/brain-health/info-2020/music-mental-health.html"))
     
-#    HTML(p1)
-#  })
+    HTML(p1)
+  })
   
   output$ref_link2 <- renderUI({
     
@@ -358,9 +357,9 @@ server <- function(input, output) {
                 Care Mental Health Setting: A Cluster-Randomized Pilot 
                 Effectiveness Study. Community Ment Health J 55, 624–630 (2019).
                 From", 
-                tags$a(href = "https://link.springer.com/article/10.1007/s10597
-                       -019-00380-1", "https://doi.org/10.1007/s10597-019-00380
-                       -1"))
+                tags$a(href = 
+                "https://link.springer.com/article/10.1007/s10597-019-00380-1", 
+                "https://doi.org/10.1007/s10597-019-00380-1"))
     
     HTML(p1)
   })
@@ -368,9 +367,9 @@ server <- function(input, output) {
   output$dataset_link1 <- renderUI({
     
     p1 <- paste("We found the data on", 
-                tags$a(href = "https://www.kaggle.com/datasets/
-                       catherinerasgaitis/mxmh-survey-results?resource=
-                       download", "Kaggle."))
+                tags$a(href = 
+                "https://www.kaggle.com/datasets/catherinerasgaitis/mxmh-survey-results?resource=download", 
+                "Kaggle."))
     
     HTML(p1)
   })

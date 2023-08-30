@@ -65,12 +65,7 @@ intro_tab <- tabPanel(
     tags$li(htmlOutput("list_link3"))
   ),
   p("References"),
-  p('Adler, S. E. (2022, August 10). Positive effects of music for Mental 
-    Health. AARP. Retrieved February 1, 2023, from ', 
-    a(href = 'https://www.aarp.org/health/brain-health/info-2020/music-mental-health.html',
-      'https://www.aarp.org/health/brain-health/info-2020/music-mental-health.
-      html', .noWS = 'outside'), '.', .noWS = c("after-begin", "before-end")),
-  #p(htmlOutput("ref_link1")),
+  p(htmlOutput("ref_link1")),
   p("Rebecchini L. Music, mental health, and immunity. Brain Behav Immun Health.
     2021 Oct 21;18:100374. doi: 10.1016/j.bbih.2021.100374. PMID: 34761245; 
     PMCID: PMC8566759."),
