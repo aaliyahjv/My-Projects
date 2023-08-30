@@ -305,7 +305,7 @@ server <- function(input, output) {
   
   output$list_link2 <- renderUI({
     
-    p1 <- paste("On the other hand, a review article called,", 
+    p2 <- paste("On the other hand, a review article called,", 
                 tags$a(href = "https://www.ncbi.nlm.nih.gov/pmc/articles/
                        PMC8566759/", "Music, mental health, and immunity"), 
                 "talks about the importance of music therapy. It involves a 
@@ -319,12 +319,12 @@ server <- function(input, output) {
                 music increases the release of dopamine and network 
                 connectivity.")
     
-    HTML(p1)
+    HTML(p2)
   })
   
   output$list_link3 <- renderUI({
     
-    p1 <- paste("An article published by AARP called", 
+    p3 <- paste("An article published by AARP called", 
                 tags$a(href = "https://www.aarp.org/health/brain-health/info-
                        2020/music-mental-health.html", "Music Can Be a Great 
                        Mood Booster"), "asks the questions of how music can 
@@ -335,19 +335,19 @@ server <- function(input, output) {
                 decrease the levels of cortisol during times of stress or 
                 prolonged stress.")
     
-    HTML(p1)
+    HTML(p3)
   })
   
-  output$ref_link1 <- renderUI({
+#  output$ref_link1 <- renderUI({
     
-    p1 <- paste("Adler, S. E. (2022, August 10). Positive effects of music for 
-                Mental Health. AARP. Retrieved February 1, 2023, from", 
-                tags$a(href = "https://www.aarp.org/health/brain-health/info-
-                       2020/music-mental-health.html", "https://www.aarp.org/
-                       health/brain-health/info-2020/music-mental-health.html"))
+#    p1 <- paste("Adler, S. E. (2022, August 10). Positive effects of music for 
+#                Mental Health. AARP. Retrieved February 1, 2023, from", 
+#                tags$a(href = "https://www.aarp.org/health/brain-health/info-
+#                       2020/music-mental-health.html", "https://www.aarp.org/
+#                       health/brain-health/info-2020/music-mental-health.html"))
     
-    HTML(p1)
-  })
+#    HTML(p1)
+#  })
   
   output$ref_link2 <- renderUI({
     
