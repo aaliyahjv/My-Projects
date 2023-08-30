@@ -287,8 +287,8 @@ server <- function(input, output) {
   output$list_link1 <- renderUI({
     
     p1 <- paste0("In the study titled, ", 
-                 tags$a(href = "https://link.springer.com/article/10.1007/
-                        s10597-019-00380-1", 
+                 tags$a(href = 
+                 "https://link.springer.com/article/10.1007/s10597-019-00380-1", 
                  "Comparing Educational Music Therapy Interventions via Stages 
                  of Recovery with Adults in an Acute Care Mental Health Setting"
                  ), ", researchers performed studies that compared 69 adult 
