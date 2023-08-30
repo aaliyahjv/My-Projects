@@ -14,7 +14,8 @@ my_theme <- bs_theme(bg = "#6f8398", fg = "white", primary = "#212529")
 intro_tab <- tabPanel(
   title = "Home",
   h1("Mental Health & Music", align="center"),
-  h4("By: Alice Chen, Aaliyah Viloria, Siyi Xu, Michelle Zhang", align="center"),
+  h4("By: Alice Chen, Aaliyah Viloria, Siyi Xu, Michelle Zhang", 
+     align="center"),
   tags$div(
     img(src = "https://www.shutterstock.com/image-vector/human-brain-headphone-
         full-musical-260nw-1438143593.jpg"), style = "text-align: center;"
@@ -51,7 +52,8 @@ intro_tab <- tabPanel(
     correlations between music and mental health, and answer other related 
     questions such as “does an increase in the number of hours the respondent 
     listens to music per day correspond to a better mental health state?”, and 
-    if certain habits like multitasking can be of benefit for one’s mental health."),
+    if certain habits like multitasking can be of benefit for one’s mental 
+    health."),
   h3(strong("Related Work")),
   p("Music is a crucial element of everyday life for most people. It plays a 
     big role in people’s cultures and backgrounds and is often played or 
