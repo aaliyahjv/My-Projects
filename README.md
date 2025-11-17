@@ -19,4 +19,4 @@ File name: project-josephy02
 
 Contributed in building a website that allows users to search and filter through hikes based on name, difficulty, and length, and save and post hikes when logged in. Utilized HTML, CSS, JavaScript.
 
-** CODING CREEPY CRAWLIES FOUND - CURRENTLY UNDERGOING FIXES **
+** CODING CREEPY CRAWLIES FOUND - CURRENTLY DEBUGGING **
